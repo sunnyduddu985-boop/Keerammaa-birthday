@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For Keerammaaaa ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- PASSWORD -->
+<div id="lockScreen" class="lock">
+  <h1 class="pulse">💖 Only For Keerammaaaa 💖</h1>
+  <input type="password" id="password" placeholder="Magic word 💕">
+  <button onclick="unlock()">Unlock Love 🔐</button>
+</div>
+
+<!-- MAIN -->
+<div id="mainContent" class="hidden">
+
+<div class="heart-rain"></div>
+<div class="fireworks"></div>
+
+<div class="slider">
+
+<!-- SLIDE 1 -->
+<section class="slide active">
+  <h1 class="glow">Keerammaaaa 💕</h1>
+  <p>You make my world beautiful ✨</p>
+  <input placeholder="Your cutest name 😘">
+  <input placeholder="What makes you smile 💖">
+  <button onclick="nextSlide()">Next 💘</button>
+</section>
+
+<!-- SLIDE 2 -->
+<section class="slide">
+  <h1>Our Moments 💑</h1>
+  <div class="gallery">
+    <img src="https://source.unsplash.com/300x300/?romantic,couple">
+    <img src="https://source.unsplash.com/300x300/?love,couple">
+    <img src="https://source.unsplash.com/300x300/?hug,couple">
+  </div>
+  <p class="counter">💞 Infinite Love Count 💞</p>
+  <button onclick="nextSlide()">Next 💖</button>
+</section>
+
+<!-- SLIDE 3 -->
+<section class="slide">
+  <h1>Cut the Cake 🎂</h1>
+  <div class="cake">🎂</div>
+  <button onclick="fireworks()">Cut 🎉</button>
+</section>
+
+<!-- SLIDE 4 -->
+<section class="slide">
+  <h1 id="typeText"></h1>
+</section>
+
+<!-- SLIDE 5 -->
+<section class="slide">
+  <h1 class="final">I Love You Keerammaaaa 💍❤️</h1>
+</section>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
